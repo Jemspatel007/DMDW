@@ -1,0 +1,9 @@
+[{"query": "create database demo", "userID": "demo", "timestamp": 1721912663926},
+{"query": "use demo", "userID": "demo", "timestamp": 1721912697879},
+{"query": "CREATE TABLE course (course_id int (PK)~~course_name varchar (NN) (U))", "userID": "demo", "timestamp": 1721912774355},
+{"query": "CREATE TABLE student (student_id int (PK)~~name varchar~~course_id int REFERENCES course(course_id) RELATION(enroll))", "userID": "demo", "timestamp": 1721912930216},
+{"query": "use demo", "userID": "demo", "timestamp": 1721912964803},
+{"query": "use demo", "userID": "demo", "timestamp": 1721913476265},
+{"query": "use demo", "userID": "demo", "timestamp": 1721913581555},
+{"query": "use demo", "userID": "demo", "timestamp": 1721914086496}
+]

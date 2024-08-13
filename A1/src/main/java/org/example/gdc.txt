@@ -1,0 +1,5 @@
+# Mapping for the 'users' entity
+users -> jdbc:mysql://34.69.85.85:3306/socialmediajems
+
+# Mapping for the 'tweets' entity
+tweets -> jdbc:mysql://35.225.23.200:3306/socialmediajems

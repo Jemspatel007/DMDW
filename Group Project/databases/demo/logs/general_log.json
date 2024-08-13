@@ -1,0 +1,17 @@
+[{"executionTime": 58, "totalRecords": 0, "numberOfTables": 0, "query": "create database demo", "timestamp": 1721912663990},
+{"executionTime": 9, "totalRecords": 0, "numberOfTables": 1, "query": "use demo", "timestamp": 1721912697889},
+{"executionTime": 12, "totalRecords": 0, "numberOfTables": 1, "query": "CREATE TABLE course (course_id int (PK)~~course_name varchar (NN) (U))", "timestamp": 1721912774379},
+{"executionTime": 5, "totalRecords": 0, "numberOfTables": 2, "query": "CREATE TABLE student (student_id int (PK)~~name varchar~~course_id int REFERENCES course(course_id) RELATION(enroll))", "timestamp": 1721912930236},
+{"executionTime": 14, "totalRecords": 0, "numberOfTables": 3, "query": "use demo", "timestamp": 1721912964819},
+{"executionTime": 11, "totalRecords": 0, "numberOfTables": 2, "query": "Insert", "timestamp": 1721912987452},
+{"executionTime": 3, "totalRecords": 1, "numberOfTables": 2, "query": "Insert", "timestamp": 1721913078437},
+{"executionTime": 7, "totalRecords": 2, "numberOfTables": 2, "query": "Insert", "timestamp": 1721913143431},
+{"executionTime": 7, "totalRecords": 2, "numberOfTables": 2, "query": "Delete", "timestamp": 1721913242362},
+{"executionTime": 6, "totalRecords": 2, "numberOfTables": 2, "query": "Insert", "timestamp": 1721913386230},
+{"executionTime": 3, "totalRecords": 4, "numberOfTables": 2, "query": "Insert", "timestamp": 1721913433767},
+{"executionTime": 25, "totalRecords": 3, "numberOfTables": 3, "query": "use demo", "timestamp": 1721913476294},
+{"executionTime": 10, "totalRecords": 3, "numberOfTables": 2, "query": "Insert", "timestamp": 1721913541446},
+{"executionTime": 25, "totalRecords": 4, "numberOfTables": 3, "query": "use demo", "timestamp": 1721913581584},
+{"executionTime": 15, "totalRecords": 4, "numberOfTables": 2, "query": "Insert", "timestamp": 1721913662262},
+{"executionTime": 51, "totalRecords": 5, "numberOfTables": 3, "query": "use demo", "timestamp": 1721914086552}
+]

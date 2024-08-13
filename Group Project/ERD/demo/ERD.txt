@@ -1,0 +1,15 @@
+ERD
+Database: demo
+
+Tables:
+- student
+  - course_id
+  - name
+  - student_id
+
+- course
+  - course_id
+  - course_name
+
+Relationships:
+- student.course_id -> course.course_id (Many to One) RELATION(enroll)

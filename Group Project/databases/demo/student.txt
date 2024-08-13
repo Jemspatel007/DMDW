@@ -1,0 +1,1 @@
+student_id int (PK)~~name varchar~~course_id int REFERENCES course(course_id) RELATION(enroll)

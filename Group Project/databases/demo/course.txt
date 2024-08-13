@@ -1,0 +1,6 @@
+course_id int (PK)~~course_name varchar (NN) (U)
+5~~DMDW
+ABC~~ACC
+1~~ASDC
+7~~SDC
+8~~cloud
